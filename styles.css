@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f0fb; /* Cor de fundo rosa pastel */
+}
+
+h1, h2 {
+    color: #4a235a; /* Cor dos títulos */
+    text-align: center;
+}
+
+form {
+    width: 80%; /* Largura do formulário ajustada para 80% da largura do conteúdo */
+    margin: 20px auto; /* Centralizar o formulário */
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border: 2px solid #d3b3e0; /* Borda do formulário */
+    border-radius: 30px;
+    padding: 20px; /* Espaçamento interno do formulário */
+}
+
+form label {
+    display: block; /* Para que os labels fiquem em uma linha abaixo da outra */
+    margin-bottom: 6px; /* Espaçamento entre os labels */
+}
+
+form input[type="text"],
+form textarea,
+form select {
+    width: calc(100% - 24px); /* Ajustar largura para prevenir overflow */
+    padding: 8px; /* Espaçamento interno dos campos */
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Garantir que padding não altere a largura total */
+}
+
+form button[type="submit"] {
+    padding: 10px 16px; /* Espaçamento interno do botão */
+    cursor: pointer;
+    background-color: #e69ece; /* Rosa pastel para botão de submit */
+    border: 1px solid #d8a6b9; /* Borda do botão de submit */
+    color: #4a235a; /* Cor do texto do botão de submit */
+}
+
+form button[type="submit"]:hover {
+    background-color: #f4bedc;/* Cor de fundo do botão de submit ao passar o mouse */
+}
+
+#lista_tarefas {
+    width: 80%; /* Largura da tabela ajustada para 80% da largura do conteúdo */
+    margin: 20px auto; /* Centralizar a tabela */
+    border-collapse: collapse;
+    border: 2px solid #d3b3e0; /* Borda da tabela */
+    border-radius: 30px;
+}
+
+#lista_tarefas th, #lista_tarefas td {
+    border: 1px solid #d3b3e0; /* Bordas internas da tabela */
+    padding: 12px; /* Espaçamento interno das células */
+    text-align: left;
+}
+
+#lista_tarefas tbody tr:nth-child(odd) {
+    background-color: #f6e6ff; /* Lilás pastel para linhas ímpares */
+}
+
+#lista_tarefas tbody tr:nth-child(even) {
+    background-color: #eec4e5; /* Rosa pastel para linhas pares */
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #e9a8fd; 
+    border: 1px solid #d8a6b9; 
+    color: #4a235a; 
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #f4bedc; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+label {
+    display: block; /* Para que os labels fiquem em uma linha abaixo da outra */
+    margin-bottom: 6px; /* Espaçamento entre os labels */
+}

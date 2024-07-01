@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="db_connect.php" method="POST">
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br>
+        
+        <label for="conteudo">Conteúdo:</label><br>
+        <textarea id="conteudo" name="conteudo" rows="5" required></textarea><br>
+        
+        <label for="fonte">Fonte:</label><br>
+        <input type="text" id="fonte" name="fonte"><br>
+        
+        <label for="url_imagem">URL da Imagem:</label><br>
+        <input type="text" id="url_imagem" name="url_imagem"><br>
+        
+        <label for="categoria">Categoria:</label><br>
+        <input type="text" id="categoria" name="categoria"><br>
+        
+        <input type="submit" value="Publicar Notícia">
+    </form>    
+</body>
+</html>
